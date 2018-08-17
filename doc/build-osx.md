@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/ValinorCoin-Project/ValinorCoin.git
+        git clone https://github.com/ValinorCoin/ValinorCoin.git
         cd ValinorCoin
 
 2.  Build valinorcoind:

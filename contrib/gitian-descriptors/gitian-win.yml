@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/valinorcoin-project/valinorcoin.git"
+- "url": "https://github.com/valinorcoin/valinorcoin.git"
   "dir": "ValinorCoin"
 files: []
 script: |
