@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>logiscoin-core</name>
+    <name>valinorcoin-core</name>
     </context>
 </TS>

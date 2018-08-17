@@ -1,25 +1,25 @@
-# /etc/conf.d/logiscoind: config file for /etc/init.d/logiscoind
+# /etc/conf.d/valinorcoind: config file for /etc/init.d/valinorcoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/logiscoin/logiscoin.conf"
+#BITCOIND_CONFIGFILE="/etc/valinorcoin/valinorcoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/logiscoind"
+#BITCOIND_PIDDIR="/var/run/valinorcoind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/logiscoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/valinorcoind.pid"
 
-# Where to write logiscoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/logiscoind"
+# Where to write valinorcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/valinorcoind"
 
-# User and group to own logiscoind process
-#BITCOIND_USER="logiscoin"
-#BITCOIND_GROUP="logiscoin"
+# User and group to own valinorcoind process
+#BITCOIND_USER="valinorcoin"
+#BITCOIND_GROUP="valinorcoin"
 
-# Path to logiscoind executable
-#BITCOIND_BIN="/usr/bin/logiscoind"
+# Path to valinorcoind executable
+#BITCOIND_BIN="/usr/bin/valinorcoind"
 
-# Nice value to run logiscoind under
+# Nice value to run valinorcoind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

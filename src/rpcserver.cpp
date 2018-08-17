@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LogisCoin developers
+// Copyright (c) 2018 The ValinorCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -220,10 +220,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop LogisCoin server.");
+            "\nStop ValinorCoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "LogisCoin server stopping";
+    return "ValinorCoin server stopping";
 }
 
 
@@ -300,36 +300,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Logiscoin features */
-        {"logiscoin", "masternode", &masternode, true, true, false},
-        {"logiscoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"logiscoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"logiscoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"logiscoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"logiscoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"logiscoin", "startmasternode", &startmasternode, true, true, false},
-        {"logiscoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"logiscoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"logiscoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"logiscoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"logiscoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"logiscoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"logiscoin", "mnbudget", &mnbudget, true, true, false},
-        {"logiscoin", "preparebudget", &preparebudget, true, true, false},
-        {"logiscoin", "submitbudget", &submitbudget, true, true, false},
-        {"logiscoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"logiscoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"logiscoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"logiscoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"logiscoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"logiscoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"logiscoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"logiscoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"logiscoin", "mnsync", &mnsync, true, true, false},
-        {"logiscoin", "spork", &spork, true, true, false},
-        {"logiscoin", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Valinorcoin features */
+        {"valinorcoin", "masternode", &masternode, true, true, false},
+        {"valinorcoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"valinorcoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"valinorcoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"valinorcoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"valinorcoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"valinorcoin", "startmasternode", &startmasternode, true, true, false},
+        {"valinorcoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"valinorcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"valinorcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"valinorcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"valinorcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"valinorcoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"valinorcoin", "mnbudget", &mnbudget, true, true, false},
+        {"valinorcoin", "preparebudget", &preparebudget, true, true, false},
+        {"valinorcoin", "submitbudget", &submitbudget, true, true, false},
+        {"valinorcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"valinorcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"valinorcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"valinorcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"valinorcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"valinorcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"valinorcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"valinorcoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"valinorcoin", "mnsync", &mnsync, true, true, false},
+        {"valinorcoin", "spork", &spork, true, true, false},
+        {"valinorcoin", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"logiscoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"valinorcoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -594,16 +594,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use logiscoind, or the -server option to logiscoin-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use valinorcoind, or the -server option to valinorcoin-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=logiscoinrpc\n"
+                                               "rpcuser=valinorcoinrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"LogisCoin Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"ValinorCoin Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1054,14 +1054,14 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> logiscoin-cli " + methodname + " " + args + "\n";
+    return "> valinorcoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
 {
     return "> curl --user myusername --data-binary '{\"jsonrpc\": \"1.0\", \"id\":\"curltest\", "
            "\"method\": \"" +
-           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:48483/\n";
+           methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:/\n";
 }
 
 const CRPCTable tableRPC;

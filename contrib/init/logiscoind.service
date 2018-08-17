@@ -1,19 +1,19 @@
 [Unit]
-Description=LogisCoin's distributed currency daemon
+Description=ValinorCoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=logiscoin
-Group=logiscoin
+User=valinorcoin
+Group=valinorcoin
 
 Type=forking
-PIDFile=/var/lib/logiscoind/logiscoind.pid
+PIDFile=/var/lib/valinorcoind/valinorcoind.pid
 
-ExecStart=/usr/bin/logiscoind -daemon -pid=/var/lib/logiscoind/logiscoind.pid \
-          -conf=/etc/logiscoin/logiscoin.conf -datadir=/var/lib/logiscoind
+ExecStart=/usr/bin/valinorcoind -daemon -pid=/var/lib/valinorcoind/valinorcoind.pid \
+          -conf=/etc/valinorcoin/valinorcoin.conf -datadir=/var/lib/valinorcoind
 
-ExecStop=-/usr/bin/logiscoin-cli -conf=/etc/logiscoin/logiscoin.conf \
-         -datadir=/var/lib/logiscoind stop
+ExecStop=-/usr/bin/valinorcoin-cli -conf=/etc/valinorcoin/valinorcoin.conf \
+         -datadir=/var/lib/valinorcoind stop
 
 Restart=always
 PrivateTmp=true

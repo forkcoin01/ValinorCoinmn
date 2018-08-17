@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * LogisCoin RPC command dispatcher.
+ * ValinorCoin RPC command dispatcher.
  */
 class CRPCTable
 {

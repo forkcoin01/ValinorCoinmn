@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both logiscoind and logiscoin-qt, to make it harder for attackers to
+ * for both valinorcoind and valinorcoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("LogisCoin Core");
+const std::string CLIENT_NAME("ValinorCoin Core");
 
 /**
  * Client version number

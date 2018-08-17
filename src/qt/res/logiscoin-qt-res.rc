@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "LogisCoin"
-            VALUE "FileDescription",    "LogisCoin Core (OSS GUI client for LogisCoin)"
+            VALUE "CompanyName",        "ValinorCoin"
+            VALUE "FileDescription",    "ValinorCoin Core (OSS GUI client for ValinorCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "logiscoin-qt"
+            VALUE "InternalName",       "valinorcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "logiscoin-qt.exe"
-            VALUE "ProductName",        "LogisCoin Core"
+            VALUE "OriginalFilename",   "valinorcoin-qt.exe"
+            VALUE "ProductName",        "ValinorCoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

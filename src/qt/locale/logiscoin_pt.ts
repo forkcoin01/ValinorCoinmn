@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços LogisCoin para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços ValinorCoin para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços LogisCoin para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços ValinorCoin para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>LogisCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LGSs from being stolen by malware infecting your computer.</source>
-        <translation>LogisCoin encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas LGSs contra roubo por malware infectando seu computador.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas VPCs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LGS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA LGS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA VPC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Logiscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço Logiscoin que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Valinorcoin que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>Um endereço LogisCoin para assinar a mensagem</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Um endereço ValinorCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço LogisCoin.</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço ValinorCoin.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>O endereço LogisCoin que foi assinado com</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>O endereço ValinorCoin que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -633,8 +633,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>Um endereço LogisCoin para assinar a mensagem</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Um endereço ValinorCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -665,12 +665,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço LogisCoin.</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço ValinorCoin.</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>O endereço LogisCoin que foi assinado com</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>O endereço ValinorCoin que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -868,14 +868,14 @@
     </message>
     </context>
 <context>
-    <name>logiscoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all LogisCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da LogisCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all ValinorCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da ValinorCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LogisCoin Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o LogisCoin Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o ValinorCoin Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

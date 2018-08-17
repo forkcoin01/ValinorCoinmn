@@ -46,10 +46,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Logiscoin Core logiscoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Valinorcoin Core valinorcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  logiscoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded logiscoin transaction") + "\n" +
-                               "  logiscoin-tx [options] -create [commands]   " + _("Create hex-encoded logiscoin transaction") + "\n" +
+                               "  valinorcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded valinorcoin transaction") + "\n" +
+                               "  valinorcoin-tx [options] -create [commands]   " + _("Create hex-encoded valinorcoin transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -550,7 +550,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded logiscoin transaction
+            // param: hex-encoded valinorcoin transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

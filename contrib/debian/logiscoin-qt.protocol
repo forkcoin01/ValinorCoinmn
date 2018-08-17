@@ -1,6 +1,6 @@
 [Protocol]
-exec=logiscoin-qt '%u'
-protocol=logiscoin
+exec=valinorcoin-qt '%u'
+protocol=valinorcoin
 input=none
 output=none
 helper=true

@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: logiscoind.service
-Upstart: logiscoind.conf
-OpenRC:  logiscoind.openrc
-         logiscoind.openrcconf
-CentOS:  logiscoind.init
+SystemD: valinorcoind.service
+Upstart: valinorcoind.conf
+OpenRC:  valinorcoind.openrc
+         valinorcoind.openrcconf
+CentOS:  valinorcoind.init
 
 have been made available to assist packagers in creating node packages here.
 

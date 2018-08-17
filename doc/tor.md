@@ -1,7 +1,7 @@
-TOR SUPPORT IN LogisCoin
+TOR SUPPORT IN ValinorCoin
 =======================
 
-It is possible to run LogisCoin as a Tor hidden service, and connect to such services.
+It is possible to run ValinorCoin as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -10,10 +10,10 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-Run LogisCoin behind a Tor proxy
+Run ValinorCoin behind a Tor proxy
 ----------------------------------
 
-The first step is running LogisCoin behind a Tor proxy. This will already make all
+The first step is running ValinorCoin behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 ```
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -38,15 +38,15 @@ outgoing connections be anonymized, but more is possible.
 An example how to start the client if the Tor proxy is running on local host on
 port 9050 and only allows .onion nodes to connect:
 ```
-./logiscoind -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:989
+./valinorcoind -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:989
 ```
 
 In a typical situation, this suffices to run behind a Tor proxy:
 ```
-./logiscoind -proxy=127.0.0.1:9050
+./valinorcoind -proxy=127.0.0.1:9050
 ```
 
-Run a LogisCoin hidden server
+Run a ValinorCoin hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -59,7 +59,7 @@ SOCKSPolicy accept 127.0.0.1/8
 Log notice file /var/log/tor/notices.log
 ControlPort 9051
 HiddenServiceDir /var/lib/tor/dnet/
-HiddenServicePort 989 127.0.0.1:48484
+HiddenServicePort 989 127.0.0.1:47474
 HiddenServiceStatistics 0
 ORPort 9001
 LongLivedPorts 989
@@ -69,12 +69,12 @@ NumEntryGuards 8
 ```
 
 The directory can be different of course, but (both) port numbers should be equal to
-your logiscoind's P2P listen port (48484 by default).
+your valinorcoind's P2P listen port (47474 by default).
 ```
--externalip=X   You can tell logiscoin about its publicly reachable address using
+-externalip=X   You can tell valinorcoin about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
-                /var/lib/tor/logiscoin-service/hostname. Onion addresses are given
+                /var/lib/tor/valinorcoin-service/hostname. Onion addresses are given
                 preference for your node to advertize itself with, for connections
                 coming from unroutable addresses (such as 127.0.0.1, where the
                 Tor proxy typically runs).
@@ -92,25 +92,25 @@ your logiscoind's P2P listen port (48484 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 ```
-./logiscoind -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -listen
+./valinorcoind -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -listen
 ```
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 ```
-./logiscoind ... -discover
+./valinorcoind ... -discover
 ```
 
-and open port 48484 on your firewall (or use -upnp).
+and open port 47474 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 ```
-./logiscoind -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
+./valinorcoind -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
 ```
 
-List of known LogisCoin Tor relays
+List of known ValinorCoin Tor relays
 ------------------------------------
 ```
 y5kcscnhpygvvnjn.onion:989

@@ -1,18 +1,18 @@
-LogisCoin Core version 2.3.1 is now available from:
+ValinorCoin Core version 2.3.1 is now available from:
 
-  <https://github.com/logiscoin-project/logiscoin/releases>
+  <https://github.com/valinorcoin-project/valinorcoin/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/logiscoin-project/logiscoin/issues>
+  <https://github.com/valinorcoin-project/valinorcoin/issues>
 
 Compatibility
 ==============
 
-LogisCoin Core is extensively tested on multiple operating systems using
+ValinorCoin Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -20,7 +20,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-LogisCoin Core should also work on most other Unix-like systems but is not
+ValinorCoin Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -93,8 +93,8 @@ Result: (for other sets):
 }
 
 Examples:
-> logiscoin-cli masternodestart "alias" "my_mn"
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "masternodestart", "params": ["alias" "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:48483/
+> valinorcoin-cli masternodestart "alias" "my_mn"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "masternodestart", "params": ["alias" "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:47473/
 ```
 
 ##### `preparebudget` & `submitbudget` Commands #####
@@ -128,8 +128,8 @@ Result:
 }
 
 Examples:
-> logiscoin-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:48483/
+> valinorcoin-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:47473/
 ```
 
 ##### `getbudgetinfo` Command #####
@@ -154,7 +154,7 @@ Result:
     "BlockEnd": n,                (numeric) Proposal ending block
     "TotalPaymentCount": n,       (numeric) Number of payments
     "RemainingPaymentCount": n,   (numeric) Number of remaining payments
-    "PaymentAddress": "xxxx",     (string) LogisCoin address of payment
+    "PaymentAddress": "xxxx",     (string) ValinorCoin address of payment
     "Ratio": x.xxx,               (numeric) Ratio of yeas vs nays
     "Yeas": n,                    (numeric) Number of yea votes
     "Nays": n,                    (numeric) Number of nay votes
@@ -170,8 +170,8 @@ Result:
 ]
 
 Examples:
-> logiscoin-cli getbudgetprojection
-> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetprojection", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:48483/
+> valinorcoin-cli getbudgetprojection
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetprojection", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:47473/
 ```
 
 #### Masternode network protocol layer reporting ####
@@ -205,4 +205,4 @@ Thanks to everyone who directly contributed to this release:
 - Mrs-X
 - amirabrams
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/logiscoin-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/valinorcoin-project-translations/).

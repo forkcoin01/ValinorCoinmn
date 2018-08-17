@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi LogisCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi ValinorCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi LogisCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi ValinorCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>LogisCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LGSs from being stolen by malware infecting your computer.</source>
-        <translation>LogisCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi LGS dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi VPC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LGS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI LGS&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI VPC&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Logiscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Logiscoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo Valinorcoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>L'indirizzo LogisCoin per firmare il messaggio con</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>L'indirizzo ValinorCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LogisCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ValinorCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>L'indirizzo LogisCoin con cui è stato firmato il messaggio</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>L'indirizzo ValinorCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LogisCoin specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ValinorCoin specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LogisCoin address</source>
-        <translation>Invia monete all' indirizzo LogisCoin</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Invia monete all' indirizzo ValinorCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and logiscoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e logiscoin: URIs)</translation>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e valinorcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LogisCoin Core</source>
-        <translation>&amp;Informazioni LogisCoin Core</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>&amp;Informazioni ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LogisCoin Core</source>
-        <translation>Visualizza informazioni su LogisCoin Core</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Visualizza informazioni su ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LogisCoin</source>
-        <translation>Modifica le opzioni di configurazione per LogisCoin</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Modifica le opzioni di configurazione per ValinorCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LogisCoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi LogisCoin per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi ValinorCoin per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LogisCoin addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi LogisCoin specifici</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ValinorCoin specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a LogisCoin: URI or payment request</source>
-        <translation>Apri un LogisCoin: URI o richiesta di pagamento</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Apri un ValinorCoin: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the LogisCoin Core help message to get a list with possible LogisCoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto LogisCoin Core per ottenere un elenco con le possibili opzioni di riga di comando LogisCoin</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto ValinorCoin Core per ottenere un elenco con le possibili opzioni di riga di comando ValinorCoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (logiscoin.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (logiscoin.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (valinorcoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -893,8 +893,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -920,8 +920,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>L'indirizzo LogisCoin per firmare il messaggio con</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>L'indirizzo ValinorCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LogisCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ValinorCoin</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>L'indirizzo LogisCoin con cui è stato firmato il messaggio</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>L'indirizzo ValinorCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LogisCoin specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ValinorCoin specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     </context>
 <context>
@@ -1273,7 +1273,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>logiscoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

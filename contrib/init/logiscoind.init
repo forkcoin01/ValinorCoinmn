@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  logiscoind The LogisCoin core server.
+#  valinorcoind The ValinorCoin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: logiscoind
-# processname: logiscoind
+# description: valinorcoind
+# processname: valinorcoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/logiscoind, see below
-if [ -f /etc/sysconfig/logiscoind ]; then
-        . /etc/sysconfig/logiscoind
+# you can override defaults in /etc/sysconfig/valinorcoind, see below
+if [ -f /etc/sysconfig/valinorcoind ]; then
+        . /etc/sysconfig/valinorcoind
 fi
 
 RETVAL=0
 
-prog=logiscoind
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/logiscoind
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/logiscoind}
+prog=valinorcoind
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/valinorcoind
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/valinorcoind}
 
-# logiscoind defaults to /usr/bin/logiscoind, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/logiscoind}
+# valinorcoind defaults to /usr/bin/valinorcoind, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/valinorcoind}
 
-# logiscoind opts default to -disablewallet, override with BITCOIND_OPTS
+# valinorcoind opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

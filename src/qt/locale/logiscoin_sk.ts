@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše LogisCoin adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše ValinorCoin adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše LogisCoin adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše ValinorCoin adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>LogisCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LGSs from being stolen by malware infecting your computer.</source>
-        <translation>LogisCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše LGS pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše VPC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LGS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY LGS &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY VPC &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Logiscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Logiscoin, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu Valinorcoin, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>Adresa LogisCoin, ktorou chcete správu podpísať</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Adresa ValinorCoin, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto LogisCoin adresy</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ValinorCoin adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>LogisCoin adresa, ktorou bola správa podpísaná</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>ValinorCoin adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou LogisCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ValinorCoin adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LogisCoin address</source>
-        <translation>Odoslať mince na adresu LogisCoin</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Odoslať mince na adresu ValinorCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and logiscoin: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a logiscoin: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a valinorcoin: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About LogisCoin Core</source>
-        <translation>O LogisCoin Core</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>O ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LogisCoin Core</source>
-        <translation>Zobraziť informácie o LogisCoin Core</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Zobraziť informácie o ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LogisCoin</source>
-        <translation>Zmeňte možnosti konfigurácie pre LogisCoin</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Zmeňte možnosti konfigurácie pre ValinorCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LogisCoin addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy LogisCoin, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy ValinorCoin, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LogisCoin addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými LogisCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými ValinorCoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a LogisCoin: URI or payment request</source>
-        <translation>Otvorte LogisCoin: URI alebo žiadosť o platbu</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Otvorte ValinorCoin: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the LogisCoin Core help message to get a list with possible LogisCoin command-line options</source>
-        <translation>Zobraziť pomocnú správu programu LogisCoin Core a získajte zoznam možností príkazového riadka LogisCoin</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Zobraziť pomocnú správu programu ValinorCoin Core a získajte zoznam možností príkazového riadka ValinorCoin</translation>
     </message>
     <message>
-        <source>LogisCoin Core client</source>
-        <translation>LogisCoin Core klient</translation>
+        <source>ValinorCoin Core client</source>
+        <translation>ValinorCoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (logiscoin.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (logiscoin.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (valinorcoin.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>Adresa LogisCoin, ktorou chcete správu podpísať</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Adresa ValinorCoin, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1117,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto LogisCoin adresy</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ValinorCoin adresy</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>LogisCoin adresa, ktorou bola správa podpísaná</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>ValinorCoin adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou LogisCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ValinorCoin adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     </context>
 <context>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>logiscoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

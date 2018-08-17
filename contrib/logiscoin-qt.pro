@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/logiscoin-config.h \
+           src/valinorcoin-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/logiscoin-config.h \
+           src/config/valinorcoin-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/logiscoin.moc \
+           src/qt/valinorcoin.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/logiscoin-cli.cpp \
-           src/logiscoin-tx.cpp \
-           src/logiscoin.cpp \
+           src/valinorcoin-cli.cpp \
+           src/valinorcoin-tx.cpp \
+           src/valinorcoin.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/logiscoin.cpp \
-           src/qt/logiscoinstrings.cpp \
+           src/qt/valinorcoin.cpp \
+           src/qt/valinorcoinstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_logiscoin.cpp \
+           src/test/test_valinorcoin.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/logiscoin.qrc src/qt/logiscoin_locale.qrc
+RESOURCES += src/qt/valinorcoin.qrc src/qt/valinorcoin_locale.qrc
 
-TRANSLATIONS += src/qt/locale/logiscoin_bg.ts \
-                src/qt/locale/logiscoin_de.ts \
-                src/qt/locale/logiscoin_en.ts \
-                src/qt/locale/logiscoin_es.ts \
-                src/qt/locale/logiscoin_fi.ts \
-                src/qt/locale/logiscoin_fr.ts \
-                src/qt/locale/logiscoin_it.ts \
-                src/qt/locale/logiscoin_ja.ts \
-                src/qt/locale/logiscoin_pl.ts \
-                src/qt/locale/logiscoin_pt.ts \
-                src/qt/locale/logiscoin_ru.ts \
-                src/qt/locale/logiscoin_sk.ts \
-                src/qt/locale/logiscoin_sv.ts \
-                src/qt/locale/logiscoin_vi.ts \
-                src/qt/locale/logiscoin_zh_CN.ts \
-                src/qt/locale/logiscoin_zh_TW.ts
+TRANSLATIONS += src/qt/locale/valinorcoin_bg.ts \
+                src/qt/locale/valinorcoin_de.ts \
+                src/qt/locale/valinorcoin_en.ts \
+                src/qt/locale/valinorcoin_es.ts \
+                src/qt/locale/valinorcoin_fi.ts \
+                src/qt/locale/valinorcoin_fr.ts \
+                src/qt/locale/valinorcoin_it.ts \
+                src/qt/locale/valinorcoin_ja.ts \
+                src/qt/locale/valinorcoin_pl.ts \
+                src/qt/locale/valinorcoin_pt.ts \
+                src/qt/locale/valinorcoin_ru.ts \
+                src/qt/locale/valinorcoin_sk.ts \
+                src/qt/locale/valinorcoin_sv.ts \
+                src/qt/locale/valinorcoin_vi.ts \
+                src/qt/locale/valinorcoin_zh_CN.ts \
+                src/qt/locale/valinorcoin_zh_TW.ts

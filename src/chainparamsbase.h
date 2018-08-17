@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between logiscoin-cli and logiscoind)
- * of a given instance of the Logiscoin system.
+ * CBaseChainParams defines the base parameters (shared between valinorcoin-cli and valinorcoind)
+ * of a given instance of the Valinorcoin system.
  */
 class CBaseChainParams
 {

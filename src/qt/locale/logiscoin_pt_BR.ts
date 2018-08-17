@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços LogisCoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços ValinorCoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your LogisCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços LogisCoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços ValinorCoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>LogisCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LGSs from being stolen by malware infecting your computer.</source>
-        <translation>LogisCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas LGSs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas VPCs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LGS&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS LGS&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS VPC&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Logiscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>O endereço LogisCoin para assinar a mensagem</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>O endereço ValinorCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço LogisCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço ValinorCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>O endereço LogisCoin que assinou a mensagem</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>O endereço ValinorCoin que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço LogisCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço ValinorCoin especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LogisCoin address</source>
-        <translation>Enviar moedas para um endereço LogisCoin</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Enviar moedas para um endereço ValinorCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and logiscoin: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e logiscoin: URIs)</translation>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e valinorcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LogisCoin Core</source>
-        <translation>&amp;Sobre o LogisCoin Core</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>&amp;Sobre o ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LogisCoin Core</source>
-        <translation>Mostra informação sobre o LogisCoin Core</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Mostra informação sobre o ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LogisCoin</source>
-        <translation>Modificar opções de configuração para LogisCoin</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Modificar opções de configuração para ValinorCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LogisCoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços LogisCoin para provar que você os detém</translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços ValinorCoin para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LogisCoin addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços LogisCoin especificados</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços ValinorCoin especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a LogisCoin: URI or payment request</source>
-        <translation>Abrir um LogisCoin: URI ou requisição de pagamento</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Abrir um ValinorCoin: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the LogisCoin Core help message to get a list with possible LogisCoin command-line options</source>
-        <translation>Mostra a ajuda da LogisCoin Core para receber uma lista com possíveis opções de linha de comando LogisCoin</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Mostra a ajuda da ValinorCoin Core para receber uma lista com possíveis opções de linha de comando ValinorCoin</translation>
     </message>
     <message>
-        <source>LogisCoin Core client</source>
-        <translation>Cliente Core LogisCoin</translation>
+        <source>ValinorCoin Core client</source>
+        <translation>Cliente Core ValinorCoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (logiscoin.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (logiscoin.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (valinorcoin.conf). </translation>
     </message>
 </context>
 <context>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LogisCoin address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de LogisCoin</translation>
+        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de ValinorCoin</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About LogisCoin Core</source>
-        <translation>Sobre o LogisCoin Core</translation>
+        <source>About ValinorCoin Core</source>
+        <translation>Sobre o ValinorCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to LogisCoin Core.</source>
-        <translation>Bem-vindo ao LogisCoin Core.</translation>
+        <source>Welcome to ValinorCoin Core.</source>
+        <translation>Bem-vindo ao ValinorCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LogisCoin Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde LogisCoin Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde ValinorCoin Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>LogisCoin Core will download and store a copy of the LogisCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LogisCoin Core vai baixar e armazenar uma cópia da blockchain LogisCoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ValinorCoin Core vai baixar e armazenar uma cópia da blockchain ValinorCoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1460,48 +1460,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LGS</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 LGS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 VPC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LGS</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 LGS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 VPC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LGS to anonymize 10000 LGS</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 LGS para anonimizar 10000 LGS</translation>
+        <source>This option is the quickest and will cost about ~0.025 VPC to anonymize 10000 VPC</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 VPC para anonimizar 10000 VPC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LGS to anonymize 10000 LGS</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 LGS para anonimizar 10000 LGS</translation>
+        <source>This option is moderately fast and will cost about 0.05 VPC to anonymize 10000 VPC</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 VPC para anonimizar 10000 VPC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 LGS per 10000 LGS you anonymize.</source>
-        <translation>0.1 LGS por 10000 LGS que deixar anônima.</translation>
+        <source>0.1 VPC per 10000 VPC you anonymize.</source>
+        <translation>0.1 VPC por 10000 VPC que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening LogisCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela LogisCoin's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening LogisCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela LogisCoin's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening LogisCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela LogisCoin's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the LogisCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente LogisCoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the ValinorCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente ValinorCoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start LogisCoin after logging in to the system.</source>
-        <translation>Iniciar automaticamente LogisCoin depois de logar no sistema.</translation>
+        <source>Automatically start ValinorCoin after logging in to the system.</source>
+        <translation>Iniciar automaticamente ValinorCoin depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start LogisCoin on system login</source>
-        <translation>&amp;Iniciar LogisCoin ao logar no sistema</translation>
+        <source>&amp;Start ValinorCoin on system login</source>
+        <translation>&amp;Iniciar ValinorCoin ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of LogisCoin to keep anonymized</source>
-        <translation>Quantidade de LogisCoin a manter anônima</translation>
+        <source>Amount of ValinorCoin to keep anonymized</source>
+        <translation>Quantidade de ValinorCoin a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LogisCoin.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do LogisCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do ValinorCoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/logiscoin-project/logiscoin-project-translations</source>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/logiscoin-project/logiscoin-project-translations</translation>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the LogisCoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede LogisCoin através de um proxy SOCKS5</translation>
+        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede ValinorCoin através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LogisCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede LogisCoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ValinorCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede ValinorCoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1791,8 +1791,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Saldo ofuscado:</translation>
     </message>
     <message>
-        <source>0 LGS / 0 Rounds</source>
-        <translation>0 LGS / 0 Rodadas</translation>
+        <source>0 VPC / 0 Rounds</source>
+        <translation>0 VPC / 0 Rodadas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1966,8 +1966,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a LogisCoin address (e.g. %1)</source>
-        <translation>Insira um endereço LogisCoin (e.g. %1)</translation>
+        <source>Enter a ValinorCoin address (e.g. %1)</source>
+        <translation>Insira um endereço ValinorCoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2216,8 +2216,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the LogisCoin RPC console.</source>
-        <translation>Bem-vindo ao console da LogisCoin RPC</translation>
+        <source>Welcome to the ValinorCoin RPC console.</source>
+        <translation>Bem-vindo ao console da ValinorCoin RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2472,8 +2472,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 LGS</source>
-        <translation>0 LGS</translation>
+        <source>0 VPC</source>
+        <translation>0 VPC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2516,12 +2516,12 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLGSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLGSs in fee,&lt;br /&gt;while "at least" pays 1000 uLGSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uLGSs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uLGSs em taxa,&lt;br /&gt; pagará pelo menos 1000 uLGSs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uVPCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVPCs in fee,&lt;br /&gt;while "at least" pays 1000 uVPCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uVPCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uVPCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uVPCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LogisCoin transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de LogisCoin do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ValinorCoin transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de ValinorCoin do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid LogisCoin address</source>
-        <translation>Aviso: endereço LogisCoin inválido</translation>
+        <source>Warning: Invalid ValinorCoin address</source>
+        <translation>Aviso: endereço ValinorCoin inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2703,8 +2703,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The LogisCoin address to send the payment to</source>
-        <translation>O endereço LogisCoin para enviar o pagamento</translation>
+        <source>The ValinorCoin address to send the payment to</source>
+        <translation>O endereço ValinorCoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,8 +2766,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LogisCoin Core is shutting down...</source>
-        <translation>LogisCoin Core está desligando...</translation>
+        <source>ValinorCoin Core is shutting down...</source>
+        <translation>ValinorCoin Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2785,8 +2785,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The LogisCoin address to sign the message with</source>
-        <translation>O endereço LogisCoin para assinar a mensagem</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>O endereço ValinorCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2817,16 +2817,16 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LogisCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço LogisCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço ValinorCoin</translation>
     </message>
     <message>
-        <source>The LogisCoin address the message was signed with</source>
-        <translation>O endereço LogisCoin que assinou a mensagem</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>O endereço ValinorCoin que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LogisCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço LogisCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço ValinorCoin especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2908,8 +2908,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LogisCoin Core</source>
-        <translation>LogisCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2924,8 +2924,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The LogisCoin Core developers</source>
-        <translation>Os desenvolvedores do LogisCoin Core</translation>
+        <source>The ValinorCoin Core developers</source>
+        <translation>Os desenvolvedores do ValinorCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3408,8 +3408,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LGS.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 LGS.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VPC.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 VPC.</translation>
     </message>
 </context>
 <context>
@@ -3452,14 +3452,14 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
     </message>
 </context>
 <context>
-    <name>logiscoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all LogisCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas LogisCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all ValinorCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas ValinorCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3478,12 +3478,12 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in LGS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em LGS/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in VPC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em VPC/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LGS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em LGS/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in VPC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em VPC/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3506,8 +3506,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 LGS.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 LGS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 VPC.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 VPC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3522,8 +3522,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong LogisCoin Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core LogisCoin não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ValinorCoin Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core ValinorCoin não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3538,8 +3538,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(48484 could be used only on mainnet)</source>
-        <translation>(48484 could be used only on mainnet)</translation>
+        <source>(47474 could be used only on mainnet)</source>
+        <translation>(47474 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3550,8 +3550,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 48484 for mainnet)</source>
-        <translation>(deve ser 48484 para mainnet)</translation>
+        <source>(must be 47474 for mainnet)</source>
+        <translation>(deve ser 47474 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3602,8 +3602,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The LogisCoin Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do LogisCoin Core</translation>
+        <source>Copyright (C) 2015-%i The ValinorCoin Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do ValinorCoin Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3654,8 +3654,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of LogisCoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da LogisCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ValinorCoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da ValinorCoin Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3694,8 +3694,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in LGS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em LGS/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in VPC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em VPC/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Keep N LGS anonymized (default: %u)</source>
-        <translation>Manter N LGS anônimo (padrão: %u)</translation>
+        <source>Keep N VPC anonymized (default: %u)</source>
+        <translation>Manter N VPC anônimo (padrão: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
@@ -4142,8 +4142,8 @@ https://www.transifex.com/logiscoin-project/logiscoin-project-translations</tran
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LogisCoin Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o LogisCoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o ValinorCoin Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
