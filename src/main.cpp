@@ -1621,166 +1621,16 @@ int64_t GetBlockValue(int nHeight)
     }
 
     if (nHeight == 0) {
-        nSubsidy = 197000 * COIN;
+        nSubsidy = 6500000 * COIN;
     }
-	else if (nHeight < 10000 && nHeight > 0) {
-        nSubsidy = 1 * COIN;
+	else if (nHeight < 500000 && nHeight > 0) {
+        nSubsidy = 60 * COIN;
     }
-	else if (nHeight <= 19999 && nHeight >= 10000) {
-        nSubsidy = 1.5 * COIN;
+	else if (nHeight <= 999999 && nHeight >= 500000) {
+        nSubsidy = 30 * COIN;
     }
-	else if (nHeight <= 29999 && nHeight >= 20000) {
-        nSubsidy = 2 * COIN;
-    }
-	else if (nHeight <= 39999 && nHeight >= 30000) {
-        nSubsidy = 2.5 * COIN;
-    }
-	else if (nHeight <= 49999 && nHeight >= 40000) {
-        nSubsidy = 3 * COIN;
-    }
-	else if (nHeight <= 59999 && nHeight >= 50000) {
-        nSubsidy = 3.5 * COIN;
-    }
-	else if (nHeight <= 69999 && nHeight >= 60000) {
-        nSubsidy = 4 * COIN;
-    }
-	else if (nHeight <= 79999 && nHeight >= 70000) {
-        nSubsidy = 4.5 * COIN;
-    }
-	else if (nHeight <= 89999 && nHeight >= 80000) {
-        nSubsidy = 5 * COIN;
-    }
-	else if (nHeight <= 99999 && nHeight >= 90000) {
-        nSubsidy = 5.5 * COIN;
-    }
-	else if (nHeight <= 109999 && nHeight >= 100000) {
-        nSubsidy = 6 * COIN;
-    }
-	else if (nHeight <= 119999 && nHeight >= 110000) {
-        nSubsidy = 6.5 * COIN;
-    }
-	else if (nHeight <= 129999 && nHeight >= 120000) {
-        nSubsidy = 7 * COIN;
-    }
-	else if (nHeight <= 139999 && nHeight >= 130000) {
-        nSubsidy = 7.5 * COIN;
-    }
-	else if (nHeight <= 149999 && nHeight >= 140000) {
-        nSubsidy = 8 * COIN;
-    }
-	else if (nHeight <= 159999 && nHeight >= 150000) {
-        nSubsidy = 8.5 * COIN;
-    }
-	else if (nHeight <= 169999 && nHeight >= 160000) {
-        nSubsidy = 9 * COIN;
-    }
-	else if (nHeight <= 179999 && nHeight >= 170000) {
-        nSubsidy = 8.9 * COIN;
-    }
-	else if (nHeight <= 189999 && nHeight >= 180000) {
-        nSubsidy = 8.8 * COIN;
-    }
-	else if (nHeight <= 199999 && nHeight >= 190000) {
-        nSubsidy = 8.7 * COIN;
-    }
-	else if (nHeight <= 209999 && nHeight >= 200000) {
-        nSubsidy = 8.6 * COIN;
-    }
-	else if (nHeight <= 219999 && nHeight >= 210000) {
-        nSubsidy = 8.5 * COIN;
-    }
-	else if (nHeight <= 229999 && nHeight >= 220000) {
-        nSubsidy = 8.4 * COIN;
-    }
-	else if (nHeight <= 239999 && nHeight >= 230000) {
-        nSubsidy = 8.3 * COIN;
-    }
-	else if (nHeight <= 249999 && nHeight >= 240000) {
-        nSubsidy = 8.2 * COIN;
-    }
-	else if (nHeight <= 259999 && nHeight >= 250000) {
-        nSubsidy = 8.1 * COIN;
-    }
-	else if (nHeight <= 269999 && nHeight >= 260000) {
-        nSubsidy = 8 * COIN;
-    }
-	else if (nHeight <= 279999 && nHeight >= 270000) {
-        nSubsidy = 7.9 * COIN;
-    }
-	else if (nHeight <= 289999 && nHeight >= 280000) {
-        nSubsidy = 7.8 * COIN;
-    }
-	else if (nHeight <= 299999 && nHeight >= 290000) {
-        nSubsidy = 7.7 * COIN;
-    }
-	else if (nHeight <= 309999 && nHeight >= 300000) {
-        nSubsidy = 7.6 * COIN;
-    }
-	else if (nHeight <= 319999 && nHeight >= 310000) {
-        nSubsidy = 7.5 * COIN;
-    }
-	else if (nHeight <= 329999 && nHeight >= 320000) {
-        nSubsidy = 7.4 * COIN;
-    }
-	else if (nHeight <= 339999 && nHeight >= 330000) {
-        nSubsidy = 7.3 * COIN;
-    }
-	else if (nHeight <= 349999 && nHeight >= 340000) {
-        nSubsidy = 7.2 * COIN;
-    }
-	else if (nHeight <= 359999 && nHeight >= 350000) {
-        nSubsidy = 7.1 * COIN;
-    }
-	else if (nHeight <= 369999 && nHeight >= 360000) {
-        nSubsidy = 7 * COIN;
-    }
-	else if (nHeight <= 379999 && nHeight >= 370000) {
-        nSubsidy = 6.9 * COIN;
-    }
-	else if (nHeight <= 389999 && nHeight >= 380000) {
-        nSubsidy = 6.8 * COIN;
-    }
-	else if (nHeight <= 399999 && nHeight >= 390000) {
-        nSubsidy = 6.7 * COIN;
-    }
-	else if (nHeight <= 409999 && nHeight >= 400000) {
-        nSubsidy = 6.6 * COIN;
-    }
-	else if (nHeight <= 419999 && nHeight >= 410000) {
-        nSubsidy = 6.5 * COIN;
-    }
-	else if (nHeight <= 429999 && nHeight >= 420000) {
-        nSubsidy = 6.4 * COIN;
-    }
-	else if (nHeight <= 439999 && nHeight >= 430000) {
-        nSubsidy = 6.3 * COIN;
-    }
-	else if (nHeight <= 449999 && nHeight >= 440000) {
-        nSubsidy = 6.2 * COIN;
-    }
-	else if (nHeight <= 459999 && nHeight >= 450000) {
-        nSubsidy = 6.1 * COIN;
-    }
-	else if (nHeight <= 469999 && nHeight >= 460000) {
-        nSubsidy = 6 * COIN;
-    }
-	else if (nHeight <= 479999 && nHeight >= 470000) {
-        nSubsidy = 5.9 * COIN;
-    }
-	else if (nHeight <= 489999 && nHeight >= 480000) {
-        nSubsidy = 5.8 * COIN;
-    }
-	else if (nHeight <= 499999 && nHeight >= 490000) {
-        nSubsidy = 5.7 * COIN;
-    }
-	else if (nHeight <= 509999 && nHeight >= 500000) {
-        nSubsidy = 5.6 * COIN;
-    }
-	else if (nHeight <= 519999 && nHeight >= 510000) {
-        nSubsidy = 5.5 * COIN;
-    }
-	else if (nHeight >= 520000) {
-        nSubsidy = 5 * COIN;
+	else if (nHeight >= 1000000) {
+        nSubsidy = 15 * COIN;
     }
     else {
         nSubsidy = 0 * COIN;
@@ -1797,77 +1647,27 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 
-    if (nHeight < 10000) {
-        ret = blockValue * 0.90;
+    if (nHeight < 100000) {
+        ret = blockValue * 0.50;
     }
-	else if (nHeight <= 19999 && nHeight >= 10000) {
+	else if (nHeight <= 199999 && nHeight >= 100000) {
+        ret = blockValue * 0.60;
+    }
+	else if (nHeight <= 299999 && nHeight >= 200000) {
+        ret = blockValue * 0.70;
+    }
+	else if (nHeight <= 399999 && nHeight >= 300000) {
         ret = blockValue * 0.80;
     }
-	else if (nHeight <= 29999 && nHeight >= 20000) {
-        ret = blockValue * 0.805;
-    }
-	else if (nHeight <= 39999 && nHeight >= 30000) {
-        ret = blockValue * 0.81;
-    }
-	else if (nHeight <= 49999 && nHeight >= 40000) {
-        ret = blockValue * 0.815;
-    }
-	else if (nHeight <= 59999 && nHeight >= 50000) {
-        ret = blockValue * 0.82;
-    }
-	else if (nHeight <= 69999 && nHeight >= 60000) {
-        ret = blockValue * 0.825;
-    }
-	else if (nHeight <= 79999 && nHeight >= 70000) {
-        ret = blockValue * 0.83;
-    }
-	else if (nHeight <= 89999 && nHeight >= 80000) {
-        ret = blockValue * 0.835;
-    }
-	else if (nHeight <= 99999 && nHeight >= 90000) {
-        ret = blockValue * 0.84;
-    }
-	else if (nHeight <= 109999 && nHeight >= 100000) {
-        ret = blockValue * 0.845;
-    }
-	else if (nHeight <= 119999 && nHeight >= 110000) {
-        ret = blockValue * 0.85;
-    }
-	else if (nHeight <= 129999 && nHeight >= 120000) {
-        ret = blockValue * 0.855;
-    }
-	else if (nHeight <= 139999 && nHeight >= 130000) {
-        ret = blockValue * 0.86;
-    }
-	else if (nHeight <= 149999 && nHeight >= 140000) {
-        ret = blockValue * 0.865;
-    }
-	else if (nHeight <= 159999 && nHeight >= 150000) {
-        ret = blockValue * 0.87;
-    }
-	else if (nHeight <= 169999 && nHeight >= 160000) {
-        ret = blockValue * 0.875;
-    }
-	else if (nHeight <= 179999 && nHeight >= 170000) {
-        ret = blockValue * 0.88;
-    }
-	else if (nHeight <= 189999 && nHeight >= 180000) {
-        ret = blockValue * 0.885;
-    }
-	else if (nHeight <= 199999 && nHeight >= 190000) {
-        ret = blockValue * 0.89;
-    }
-	else if (nHeight <= 209999 && nHeight >= 200000) {
-        ret = blockValue * 0.895;
-    }
-	else if (nHeight >= 210000) {
+	else if (nHeight >= 400000) {
         ret = blockValue * 0.90;
     }
     else {
-		ret = blockValue * 0.50;
+		ret = blockValue * 0.5;
 	}
 	return ret;
 }
+
 
 bool IsInitialBlockDownload()
 {
